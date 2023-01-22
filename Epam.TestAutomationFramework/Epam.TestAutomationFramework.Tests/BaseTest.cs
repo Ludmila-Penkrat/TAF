@@ -33,7 +33,8 @@ namespace Epam.TestAutomationFramework.Tests
                 BrowserFactory.Browser.SaveScreenShot(TestContext.CurrentContext.Test.MethodName, Path.Combine(TestContext.CurrentContext.TestDirectory, TestSettings.ScreenShotPath));
             }
             Logger.Info("Test is finished");
-            BrowserFactory.Browser.Quite();
+            //BrowserFactory.Browser.Quite();
+            BrowserFactory.CloseBrowser();
         }
     }
 }
