@@ -3,8 +3,8 @@
 	<!-- Parameters used by tests at runtime -->
 	<TestRunParameters>
 		<Parameter name ="Browser" value="Chrome" />
-		<Parameter name ="WebDriverTimeOut" value="1000" />
-		<Parameter name ="WaitElementTimeOut" value="1000" />
+		<Parameter name ="WebDriverTimeOut" value="100" />
+		<Parameter name ="WaitElementTimeOut" value="100" />
 		<Parameter name ="ScreenShotPath" value="\Screenshots" />
 		<Parameter name ="LogsPath" value="\Logs" />
 		<Parameter name ="ApplicationUrl" value="https://www.epam.com/"/>
