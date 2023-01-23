@@ -6,7 +6,7 @@
 		<Parameter name ="WebDriverTimeOut" value="1000" />
 		<Parameter name ="WaitElementTimeOut" value="1000" />
 		<Parameter name ="ScreenShotPath" value="\Screenshots" />
-		<Parameter name ="LogsPath" value="Logs\Logs.txt" />
+		<Parameter name ="LogsPath" value="\Logs" />
 		<Parameter name ="ApplicationUrl" value="https://www.epam.com/"/>
 	</TestRunParameters>
 </RunSettings>

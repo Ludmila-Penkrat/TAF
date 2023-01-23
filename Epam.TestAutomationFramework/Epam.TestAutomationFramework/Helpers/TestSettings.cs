@@ -26,7 +26,10 @@ namespace Epam.TestAutomationFramework.Core.Helpers
 
         public static string ApplicationUrl => GetParameter("ApplicationUrl", "https://www.epam.com/");
 
-        public static string LogsPath => Path.Combine(TestContext.TestDirectory, @GetParameter("LogsPath"));
+        //public static string LogsPath => Path.Combine(TestContext.TestDirectory, @GetParameter("LogsPath"));
+
+        public static string LogsPath => Path.Combine(GetParameter("LogsPath"));
+
 
         public static string ScreenShotPath => Path.Combine(GetParameter("ScreenShotPath"));
 
