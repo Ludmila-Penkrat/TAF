@@ -2,7 +2,6 @@
 using Epam.TestAutomationFramework.Core.Utils;
 using Epam.TestAutomationFramework.Utilities;
 using Epam.TestAutomationFramework.Web.PageObjects.Pages;
-using Epam.TestAutomationFramework.Web.PageObjects.Panels;
 using Epam.TestAutomationFramework.Web.Pages;
 using NUnit.Framework;
 
